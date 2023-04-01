@@ -1,0 +1,267 @@
+body {
+    position: relative;
+    width: 99%;
+    height: 972px;
+
+    background: #FFFFFF;
+}
+
+* {
+    font-family: 'Inter';
+}
+
+#navbar {
+    text-align: center;
+    overflow: hidden;
+}
+
+nav ul {
+    align-items: center;
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+    display: inline-block;
+}
+
+nav li {
+    float: left;
+}
+
+@font-face {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    src: url('path/to/Inter-Regular.woff2') format('woff2'),
+        url('path/to/Inter-Regular.woff') format('woff');
+}
+
+nav li a {
+    display: block;
+    color: #000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+#Ecommerce {
+    float: left;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: #000;
+}
+
+.lang {
+    float: right;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: #000;
+}
+
+.searchDiv {
+    position: absolute;
+    width: 100%;
+    height: 70px;
+    left: 0px;
+    top: 61px;
+    background: #D9D9D9;
+}
+
+span #search {
+    position: absolute;
+    width: 571px;
+    height: 40px;
+    left: 371px;
+    top: 11px;
+    border-color: #FFFFFF;
+    background: #FFFFFF;
+}
+
+#searchIcon {
+    position: absolute;
+    right: 350px;
+    top: 35%;
+}
+
+#person-icon {
+    position: absolute;
+    right: 4%;
+    top: 35%;
+}
+
+h1 {
+
+    position: absolute;
+    left: 114px;
+    top: 110px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 44px;
+
+}
+
+#cart {
+    position: absolute;
+    right: 2%;
+    top: 35%;
+}
+
+#product-image {
+    /* 1 1 */
+
+    position: absolute;
+    width: 542px;
+    height: 542px;
+    left: 84px;
+    top: 255px;
+
+
+}
+
+h2 {
+    position: absolute;
+    width: 433px;
+    height: 39px;
+    left: 681px;
+    top: 218px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    color: #191919;
+}
+
+#price {
+    /* $44.00 */
+
+    position: absolute;
+    width: 82px;
+    height: 29px;
+    left: 681px;
+    top: 320px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    /* identical to box height */
+
+    color: #282828;
+
+
+}
+
+#Quantity {
+    position: absolute;
+    width: 86px;
+    height: 24px;
+    left: 681px;
+    top: 385px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+}
+
+input {
+    /* Rectangle 8 */
+
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 109px;
+    height: 30px;
+    left: 805px;
+    top: 395px;
+
+    border: 1px solid #727272;
+
+}
+
+button {
+    /* Rectangle 7 */
+
+    position: absolute;
+    width: 174px;
+    height: 62px;
+    left: 681px;
+    top: 450px;
+    color: #FFFFFF;
+    background: #1E1E1E;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+#description {
+    position: absolute;
+    width: 489px;
+    height: 147px;
+    left: 681px;
+    top: 545px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+
+    color: #121212;
+}
+
+#dd {
+    position: absolute;
+    width: 489px;
+    height: 147px;
+    left: 681px;
+    top: 585px;
+    line-height: 27px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+footer {
+
+    position: absolute;
+    width: 100%;
+    height: 222px;
+    left: 0px;
+    top: 740px;
+    bottom: 0%;
+    background: #D9D9D9;
+
+
+}
+
+#footerTable {
+    position: absolute;
+    left: 10%;
+    width: 90%;
+    top: 10%;
+}
+
+#footerTable td {
+    margin-right: 20px;
+    line-height: 30px;
+
+
+}

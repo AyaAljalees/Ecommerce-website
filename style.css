@@ -1,0 +1,241 @@
+body {
+  position: relative;
+  width: 99%;
+  height: 972px;
+
+  background: #FFFFFF;
+}
+
+* {
+  font-family: 'Inter';
+}
+
+#navbar {
+  text-align: center;
+  overflow: hidden;
+}
+
+nav ul {
+  align-items: center;
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 0;
+  display: inline-block;
+}
+
+nav li {
+  float: left;
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  src: url('path/to/Inter-Regular.woff2') format('woff2'),
+    url('path/to/Inter-Regular.woff') format('woff');
+}
+
+nav li a {
+  display: block;
+  color: #000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+#Ecommerce {
+  float: left;
+  padding: 14px 16px;
+  text-decoration: none;
+  color: #000;
+}
+
+.lang {
+  float: right;
+  padding: 14px 16px;
+  text-decoration: none;
+  color: #000;
+}
+
+.searchDiv {
+  position: absolute;
+  width: 100%;
+  height: 70px;
+  left: 0px;
+  top: 61px;
+  background: #D9D9D9;
+}
+
+span #search {
+  position: absolute;
+  width: 571px;
+  height: 40px;
+  left: 371px;
+  top: 11px;
+  border-color: #FFFFFF;
+  background: #FFFFFF;
+}
+
+#searchIcon {
+  position: absolute;
+  right: 350px;
+  top: 35%;
+}
+
+#person-icon {
+  position: absolute;
+  right: 4%;
+  top: 35%;
+}
+
+h1 {
+
+  position: absolute;
+  left: 114px;
+  top: 110px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 44px;
+
+}
+
+#cart {
+  position: absolute;
+  right: 2%;
+  top: 35%;
+}
+
+#productspan {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 1069px;
+  height: 254px;
+  left: 120px;
+  top: 274px;
+
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid #727272;
+}
+
+#productbar {
+  position: absolute;
+  width: 1067px;
+  height: 68px;
+  overflow: hidden;
+  top: 0px;
+  background: #D9D9D9;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+#productbar ul {
+
+  list-style-type: none;
+  display: inline-block;
+}
+
+#productbar li {
+  float: left;
+  margin-right: 270px;
+}
+
+#productbar li:last-child {
+  margin-right: 0px;
+}
+
+#productbar li a {
+  display: block;
+  color: #000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+#product {
+  position: absolute;
+  overflow: hidden;
+  top: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+#product ul {
+
+  list-style-type: none;
+  display: inline-block;
+}
+
+#product li {
+  float: left;
+  margin-right: 230px;
+
+}
+
+#product li:last-child {
+  margin-right: 0px;
+}
+
+
+#totalTable {
+  box-sizing: border-box;
+  position: absolute;
+  width: 366px;
+  height: 47px;
+  left: 822px;
+  top: 588px;
+
+  border: 1px solid #727272;
+  border-collapse: collapse;
+}
+
+#totalTable td {
+  padding-left: 20px;
+  width: 50%;
+  border: 1px solid black;
+}
+
+button {
+  position: absolute;
+  width: 167px;
+  height: 43px;
+  left: 1020px;
+  top: 649px;
+  color: #FFFFFF;
+  background: #1E1E1E;
+}
+
+footer {
+
+  position: absolute;
+  width: 100%;
+  height: 222px;
+  left: 0px;
+  top: 740px;
+  bottom: 0%;
+  background: #D9D9D9;
+
+
+}
+
+#footerTable {
+  position: absolute;
+  left: 10%;
+  width: 90%;
+  top: 10%;
+}
+
+#footerTable td {
+  margin-right: 20px;
+  line-height: 30px;
+
+
+}
